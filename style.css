@@ -1,0 +1,251 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.floatfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+img{
+    max-width: 100%;
+}
+
+.fix-width{
+    width: 1024px;
+    margin: auto;
+}
+
+.blog-right-notification {
+    float: right;
+    width: 25%;
+    margin-right: 20px;
+    margin-left: 10px;
+}
+
+/* Needed css */
+
+.text-center{
+    text-align: center;
+}
+.text-left{
+    text-align: left;
+}
+.text-right{
+    text-align: right;
+}
+
+/* header part */
+
+.header{
+    background-color: #3498db;
+}
+
+.header-left{
+    float: left;
+    width: 30%;
+}
+
+
+.header-left img{
+    width: 130px;
+    height: auto;
+}
+
+.header-right{
+    float: right;
+    width: 70%;
+}
+
+.header-right ul{
+    list-style: none;
+    text-align: right;
+}
+
+.header-right ul li{
+    display: inline-block;
+}
+.header-right ul li a{
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 28px;
+    padding: 10px 20px;
+    margin-left: -4px;
+    border-right: 1px solid white;
+}
+
+.header-right ul li a:hover{
+    background-color: #2980b9;
+}
+
+/* Banner Section */
+.banner{
+    background: url("https://i.ibb.co/jGvvWnX/banner-cc-1030x515.jpg") no-repeat center;
+    background-size: cover;
+    padding: 200px 0;
+    
+}
+
+.banner-conteant h1{
+    background-color: rgba(165, 165, 154,.5);
+    color: white;
+    max-width: 350px;
+    margin: auto;
+    margin-top: auto;
+    padding: 5px 18px;
+    font-size: 35px;
+}
+
+.banner-conteant h2{
+    background-color: #2b7eb6a8;
+    color: white;
+    display: inline-block;
+    padding: 5px 18px;
+    font-size: 45px;
+    margin-top: 10px;
+}
+
+.about{
+    background-color: rgba(231, 228, 228, 0.753);
+    padding: 60px;
+}
+
+.about h1{
+    font-size: 43px;
+}
+.about p{
+    font-size: 22px;
+    font-weight: 600px;
+    /* margin: auto; */
+    margin-top: 12px;
+}
+
+
+/* service section */
+.service{
+    background-color: #f9f9f9;
+    padding: 70px;
+}
+.service-section{
+    float: left;
+    width: 31.3%;
+    border: 1px solid rgb(51, 51, 51);
+    padding: 18px 10px;
+    box-sizing: border-box;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+
+.service-section span{
+    height: 55px;
+    width: 55px;
+    display: inline-block;
+    background-color: #3498db;
+    color: #fff;
+    line-height: 55px;
+    font-size: 35px;
+    border-radius: 15px 1px;
+}
+
+.service-section h1{
+    font-size: 35px;
+    margin: 20px 0;
+}
+
+/* conteiner section */
+.blog-conteiner{
+    padding: 80px 0;
+}
+.blog-left-conteiner{
+    float: left;
+    width: 70%;
+}
+
+.blog-item{
+    margin-bottom: 35px;
+}
+
+.blog-left-conteiner img{
+    width: 150px;
+    height: auto;
+    float: left;
+    margin-right: 15px;
+}
+
+
+/* Notice section */
+.blog-right-notification{
+    float: right;
+    width: 25%;
+}
+.blog-right-notification h2{
+    font-size: 35px;
+    font-weight: bold;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 10px;
+    padding-bottom: 6px;
+}
+.blog-right-notification ul{
+    list-style: none;
+}
+.blog-right-notification ul li{
+    border: 1px solid #ddd;
+    padding: 10px;
+    font-size: 20px;
+    margin-bottom: 10px;
+    background-color: #f9f9f9;
+}
+
+/* footer */
+.fotter{
+    background-color: #2c3e50;
+    padding: 15px 0;
+    line-height: 15px;
+}
+
+.footer-left{
+    float: left;
+    width: 40%;
+    line-height: 35px;
+    color: white;
+
+}
+.footer-right{
+    float: right;
+    width: 60%;
+}
+
+.footer-right ul{
+    text-align: right;
+}
+.footer-right ul li{
+    display: inline-block;
+}
+
+.footer-right ul li:last-child a{
+    margin-right: 15px;
+}
+.footer-right ul li a{
+    display: inline-block;
+    font-size: 20px;
+    color: white;
+    margin-left: 10px;
+    height: 35px;
+    width: 35px;
+    background-color: #0a5c92;
+    /* margin: auto 0; */
+    text-align: center;
+    line-height: 35px;
+    border-radius: 50%;
+    transition: .3s;
+}
+
+.footer-right ul li a:hover{
+    background-color: #3498db;
+}
+
